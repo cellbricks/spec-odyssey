@@ -1,0 +1,77 @@
+#5GS 5G System
+#AF Application Function
+#ARP Allocation and Retention Priority
+#AMBR Aggregate Maximum Bit Rate
+#CBC Cell Broadcast Centre
+#CBE Cell Broadcast Entity
+#CIoT Cellular IoT
+#CSG Closed Subscriber Group
+#CSG ID Closed Subscriber Group Identity
+#C-SGN CIoT Serving Gateway Node
+#CSS CSG Subscriber Server
+#DCN Dedicated Core Network
+#DeNB Donor eNode B
+#DL TFT DownLink Traffic Flow Template
+#DRX Discontinuous Reception
+#ECGI E-UTRAN Cell Global Identifier
+#ECM EPS Connection Management
+#ECN Explicit Congestion Notification
+#EMM EPS Mobility Management
+#eNB evolved Node B
+#EPC Evolved Packet Core
+#EPS Evolved Packet System
+#E-RAB E-UTRAN Radio Access Bearer
+#E-UTRAN Evolved Universal Terrestrial Radio Access Network
+#GBR Guaranteed Bit Rate
+#GUMMEI Globally Unique MME Identifier
+#GUTI Globally Unique Temporary Identity
+#GW Gateway
+#HeNB Home eNode B
+#HeNB GW Home eNode B Gateway
+#HFN Hyper Frame Number
+#IOPS Isolated E-UTRAN Operation for Public Safety
+#IoT Internet of Things
+#ISR Idle mode Signalling Reduction
+#LAA Licensed Assisted Access
+#LBI Linked EPS Bearer Id
+#L-GW Local GateWay
+#LIPA Local IP Access
+#LWA LTE/WLAN Aggregation
+#LWIP LTE/WLAN Radio Level Integration with IPsec Tunnel
+#MBR Maximum Bit Rate
+#MME Mobility Management Entity
+#MMEC MME Code
+#MTC Machine-Type Communications
+#M-TMSI M-Temporary Mobile Subscriber Identity
+#NB-IoT Narrowband IoT
+#NR New Radio
+#OCS Online Charging System
+#OFCS Offline Charging System
+#OMC-ID Operation and Maintenance Centre Identity
+#P-GW PDN Gateway
+#PCC Policy and Charging Control
+#PCRF Policy and Charging Rules Function
+#PRA Presence Reporting Area
+#PDCP Packet Data Convergence Protocol
+#PMIP Proxy Mobile IP
+#PSAP Public Safety Answering Point
+#PSM Power Saving Mode
+#PTI Procedure Transaction Id
+#QCI QoS Class Identifier
+#RCAF RAN Congestion Awareness Function
+#RFSP RAT/Frequency Selection Priority
+#RN Relay Node
+#RUCI RAN User Plane Congestion Information
+#S-GW Serving Gateway
+#S-TMSI S-Temporary Mobile Subscriber Identity
+#SDF Service Data Flow
+#SIPTO Selected IP Traffic Offload
+#TAC Tracking Area Code
+#TAD Traffic Aggregate Description
+#TAI Tracking Area Identity
+#TAU Tracking Area Update
+#TI Transaction Identifier
+#TIN Temporary Identity used in Next update
+#URRP-MME UE Reachability Request Parameter for MME
+#UL TFT UpLink Traffic Flow Template
+#ULR-Flags Update Location Request Flags

@@ -1,0 +1,49 @@
+#5GC 5G Core Network
+#ANDSF Access Network Discovery and Selection Function
+#DSMIPv6 Dual-Stack MIPv6
+#CPICH Common Pilot Channel
+#DMNP Delegated Mobile Network Prefix
+#EAP Extensible Authentication Protocol
+#EPC Evolved Packet Core
+#ePDG Evolved Packet Data Gateway
+#EPS Evolved Packet System
+#FACoA Foreign Agent Care-of-Address
+#FQDN Fully Qualified Domain Name
+#GW Gateway
+#H-ANDSF Home-ANDSF
+#HBM Host-based Mobility
+#HRPD High Rate Packet Data
+#HS-GW HRPD Serving Gateway
+#IFOM IP Flow Mobility
+#IKEv2 Internet Key Exchange version 2
+#IPMS IP Mobility management Selection
+#LMA Local Mobility Anchor
+#LWA LTE-WLAN Radio Level Aggregation
+#LWIP LTE-WLAN Radio Level Integration with IPsec Tunnel
+#MAG Mobile Access Gateway
+#MAPCON Multi Access PDN Connectivity
+#MIPv4 Mobile IP version 4
+#MIPv6 Mobile IP version 6
+#MME Mobility Management Entity
+#MTC Machine-Type Communications
+#NBM Network-based Mobility
+#NSWO Non-seamless WLAN Offload
+#OPI Offload Preference Indicator
+#P-GW PDN Gateway
+#PMIP/PMIPv6 Proxy Mobile IP version 6
+#RIM RAN Information Management
+#RCLWI RAN Controlled WLAN Interworking
+#RSRP Reference Signal Received Power
+#RSSI Received Signal Strength Indicator
+#SectorID Sector Address Identifier
+#S-GW Serving GW
+#SON Self-Configuring and self-Optimizing network
+#TWAP Trusted WLAN AAA Proxy
+#TWAG Trusted WLAN Access Gateway
+#TWAN Trusted WLAN Access Network
+#UICC Universal Integrated Circuit Card
+#UWAN Untrusted WLAN Access Network
+#V-ANDSF Visited-ANDSF
+#WiMAX Worldwide Interoperability for Microwave Access
+#WLCP WLAN Control Protocol
+#WMM Wifi Multimedia

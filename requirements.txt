@@ -1,0 +1,11 @@
+PyPDF2
+matplotlib
+jupyter
+jupyterlab
+notebook
+seaborn
+ray
+numpy
+pandas
+nltk
+redis

@@ -1,0 +1,22 @@
+Public Land Mobile Network (PLMN)
+Core Network (CN) and Access Network (AN)
+Circuit Switched (CS) and Packet Switched (PS) Domains
+CS Domain
+PS Domain
+IP Multimedia subsystem (IMS)
+Location register
+Cell
+Base Station Controller (BSC) area
+Radio Network Controller (RNC) area
+Location Area (LA)
+Routing Area (RA)
+Tracking Area (TA)
+#MSC area
+#VLR area
+#SGSN area
+Zones for Regional Subscription
+Service area
+Group call area
+#MME Are
+Pool-are
+Serving GW Service Area
