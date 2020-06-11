@@ -1,7 +1,7 @@
 Public Land Mobile Network (PLMN)
 Core Network (CN) and Access Network (AN)
 Circuit Switched (CS) and Packet Switched (PS) Domains
-CS Domain
+CS Domai
 PS Domain
 IP Multimedia subsystem (IMS)
 Location register
@@ -11,12 +11,454 @@ Radio Network Controller (RNC) area
 Location Area (LA)
 Routing Area (RA)
 Tracking Area (TA)
-#MSC area
-#VLR area
-#SGSN area
+MSC area
+VLR area
+SGSN area
 Zones for Regional Subscription
 Service area
 Group call area
-#MME Are
+MME Are
 Pool-are
 Serving GW Service Area
+The basic entities of the mobile system
+The Core Network (CN) entities
+Entities common to the PS and CS domains
+The Home Subscriber Server (HSS)
+The Home Location Register (HLR)
+The Authentication Centre (AuC)
+HSS logical functions
+The Visitor Location Register (VLR)
+void)
+The Equipment Identity Register (EIR)
+SMS Gateway MSC (SMS-GMSC)
+SMS Interworking MSC (SMS-IWMSC)
+Subscription Locator Function (SLF)
+Entities of the CS domain
+The Mobile-services Switching Centre (MSC)
+MSC Server
+Circuit Switched - Media Gateway Function (CS-MGW)
+The Gateway MSC (GMSC)
+Gateway MSC Server (GMSC Server)
+The Interworking Function (IWF)
+Entities of the GPRS PS domain
+Serving GPRS Support Node (SGSN)
+Gateway GPRS Support Node (GGSN)
+Voi
+Entities of the EPC PS Domain
+MME
+Gateways
+Serving GW
+PDN GW
+Local GW (L-GW)
+SGSN
+Trusted and Untrusted Non-3GPP Access Network
+PDG
+GPP AAA Server
+GPP AAA Proxy
+ANDSF
+Border Gateway (BG)]
+The Access Network (AN) entities
+The Base Station System (BSS)
+Base Station Controller (BSC)
+Base Transceiver Station (BTS)
+The Radio Network System (RNS)
+Radio Network Controller (RNC)
+Node B
+Access Network elements for E-UTRAN
+E-UTRAN Node B (eNB)
+Evolved UTRAN
+The Mobile Station (MS)
+User Equipment (UE)
+The specific entities of the 3GPP system
+The Group Call Register (GCR) entity
+void)
+The Location Services (LCS) entities
+Location Services (LCS) entities in RAN
+Gateway Mobile Location Centre (GMLC)
+Location Measurement Unit (LMU)
+Evolved Serving Mobile Location Centre (E-SMLC)
+CAMEL entities
+GSM Service Control Function (gsmSCF)
+GSM Service Switching Function (gsmSSF)
+GSM Specialised Resource Function (gsmSRF)
+GPRS Service Switching Function (gprsSSF)
+CBS-specific entities
+Cell Broadcast Centre (CBC
+Number Portability Specific entities
+IN-based solution: Number Portability Database (NPDB)
+Signalling Relay-based solution: Mobile Number Portability/Signalling Relay function (MNP-SRF)
+IP Multimedia (IM) Core Network (CN) Subsystem entities
+Call Session Control Function (CSCF)
+Media Gateway Control Function (MGCF)
+IP Multimedia Subsystem - Media Gateway Function (IMS-MGW)
+Multimedia Resource Function Controller (MRFC)
+Multimedia Resource Function Processor (MRFP)
+Media Resource Broker (MRB)
+Void
+Breakout Gateway Control Function (BGCF)
+Application Server (AS)
+Interconnection Border Control Function (IBCF
+Transition Gateway (TrGW)
+Location Retrieval Function (LRF)
+Service Centralization and Continuity Application Server (SCC AS)
+Emergency Access Transfer Function (EATF)
+Access Transfer Control Function (ATCF) 43Access Transfer Gateway (ATGW)
+Signalling Gateway Function (SGW)
+Global Text Telephony Specific entities
+Security Gateway (SEG)
+Application Function (AF)
+Void
+GPP/WLAN Interworking entities
+WLAN UE
+GPP AAA Proxy
+GPP AAA Server
+WLAN Access Gateway (WAG)
+Packet Data Gateway (PDG)
+Home Agent (HA)
+Multimedia Broadcast Multicast Service (MBMS) specific entities
+General
+Broadcast-Multicast Service Centre (BM-SC
+MBMS-GW
+Multi-cell/multicast Coordination Entity (MCE)
+Void
+GUP Server
+Policy and Charging Rules Function (PCRF)
+Policy and Charging Enforcement Function (PCEF)
+Support of Short Message Service over generic 3GPP Internet Protocol access (SMSIP) specific entities
+General
+IP-Short-Message-Gateway (IP-SM-GW)
+Subscription Profile Repository (SPR)
+Service Data Flow Based Credit Control Function
+Offline Charging System (OFCS)
+Online Charging System (OCS)
+Bearer Binding and Event Reporting Function (BBERF)
+Home (e)NodeB entities
+Home NodeB Subsystem (HNS)
+Home eNodeB Subsystem (HeNS)
+CSG List Server
+CSG Subscriber Server (CSS)
+Application Front Ends (AFE)
+User Data Repository (UDR)
+Traffic Detection Function (TDF)
+Specific entities to facilitate communications with packet data networks and applications
+Machine Type Communication-InterWorking Function (MTC-IWF)
+Machine Type Communication- Authentication, Authorization and Accounting (MTC-AAA)
+Service Capability Exposure Function (SCEF)
+TCP Proxy Function
+Specific entities for Packet Switched Streaming (PSS) Service
+Packet Switched Streaming Service Server (PSS Server)
+Specific entities for Group Communication System Enablers for LTE (GCSE_LTE)
+Group Communication Service Application Server (GCS AS)
+Specific entities for Proximity-based Services (ProSe)
+ProSe Function
+RAN Congestion Awareness Function (RCAF)
+Traffic Steering Support Function (TSSF)
+Specific entities for mission critical communication services
+Mission Critical Push To Talk Application Server (MCPTT AS)
+Packet Flow Description Function (PFDF)
+G System architecture
+Configuration of a Public Land Mobile Network
+Basic configuratio
+Configuration of LCS entities
+Configuration of LCS entities for GERAN
+Configuration of LCS entities for UTRAN
+Configuration of LCS entities for E-UTRAN
+Configuration of CAMEL entities
+Configuration of CBS entities
+Configuration of IM CN Subsystem entities
+IM CN Subsystem functional entities
+IM CN Subsystem Service layer
+Service Centralization and Continuity
+WebRTC access to IMS
+Configuration of Signalling Gateway Function
+Configuration of 3GPP/WLAN Interworking
+Configuration of Presence service
+Configuration of MBMS entities
+Configuration of Short Message Service over generic 3GPP Internet Protocol access (SMSIP) entities
+Configuration of Policy Control and Charging entities
+Configuration of CSFB(CS Fallback)
+Configuration of Single Radio Voice Call Continuity (SRVCC)
+E-UTRAN/UTRAN (HSPA) to UTRAN or GERAN SRVCC architecture
+UTRAN/GERAN to E-UTRAN or UTRAN (HSPA) SRVCC architecture
+Configuration of Security
+Configuration of Lawful Intercept related entities
+Configuration of Charging related entities
+Configuration of Home (e)NodeB entities
+Configuration of the Home NodeB Subsystem
+Configuration of the Home eNodeB Subsystem
+Configuration for facilitating communications with packet data networks and applications
+Configuration of Packet Switched Streaming (PSS) Service
+Configuration of Proximity-based Service
+Configuration for RAN user plane congestion detection and reporting
+PLMN basic interfaces and reference points
+Interfaces between Mobile Station and the Fixed Infrastructure
+Interface between Mobile Station and Base Station System (Um-interface)
+Interface between User Equipment and Radio Network System (Uu-interface)
+Interface between User Equipment and Evolved UTRAN (E-UTRAN Uu-interface)
+Interface between the Core Network and the Access Network
+Interfaces between the CS domain and the Access Network
+Interface between the MSC and Base Station System (A-interface)
+Interface between the MSC and Base Station System (Iu_CS interface)
+Interface between the MSC and RNS (Iu_CS interface)
+Interfaces between the PS domain and the Access Network
+Interface between SGSN and BSS (Gb-interface)
+Interface between SGSN and BSS (Iu_PS-interface)
+Interface between SGSN and RNS (Iu_PS-interface)
+Interfaces between the Evolved Packet Core and the Access Network
+Interface between MME and E-UTRAN (S1-MME-interface)
+Interface between S-GW and E-UTRAN (S1-U-interface)
+Interfaces internal to the Access Network
+Interface between BSC and BTS (Abis-interface)
+Interface between RNC and Node B (Iub-interface)
+Interface between two RNCs (Iur-interface)
+Interface between two eNBs (X2-interface)
+Interface between HNB and HNB-GW(Iuh-interface)
+Interfaces internal to the Core Network
+Interfaces internal to the CS domain
+Interface between the MSC server and its associated VLR (B-interface)
+Interface between the HLR and the MSC server (C-interface)
+Interface between the HLR and the VLR (D-interface)
+Interface between MSC servers or MSC server and IP-SM-GW (E-interface)
+Interface between MSC server and EIR (F-interface)
+Interface between VLRs (G-interface)
+Reference point (G)MSC server – CS-MGW (Mc Reference Point)
+Reference Point MSC Server – GMSC Server (Nc Reference Point)
+Reference Point CS-MGW – CS-MGW (Nb Reference Point) 81Interfaces internal to the PS domain (GPRS)
+Interface between SGSN and HLR (Gr-interface)
+Interface between SGSN and GGSN (Gn- and Gp-interface)
+Signalling Path between GGSN and HLR (Gc-interface)
+Interface between SGSN and EIR (Gf-interface)
+Reference Point between the CSS and the Gn/Gp SGSN (Ghv Reference Point)
+Interfaces used by CS and PS domains
+Interface between MSC/VLR and SGSN (Gs-interface) for GPRS
+Interface between HLR/HSS and AuC (H-Interface)
+Interface between SGSN/IP-SM-GW and SMS-GMSC/SMS-IWMSC (Gd/Gdd-Interface) Interface between MSC/VLR and MME (SGs-interface) for EPC
+Interface between 3GPP MSC Server and MME or SGSN (Sv-interface)
+Interfaces internal & related to the Evolved Packet Core
+Interface between MME and HSS (S6a-interface)
+Interface between SGSN and HSS (S6d-interface)
+Interface between MME and S-GW (S11-interface)
+Interface between MME and MME (S10-interface
+Interface between S-GW and PDN GW (S5 and S8-interface)
+Interface between MME and EIR (S13-interface)
+Interface between MME and SGSN (S3-interface)
+Interface between S-GW and SGSN (S4-interface)
+Interface between S-GW and UTRAN (S12-interface)
+Interface between Trusted non-3GPP IP Access and S-GW/PDN GW (S2a-interface)
+Interface between PDN GW/S-GW and ePDG (S2b-interface)
+Interface between PDN GW and UE (S2c-interface)
+Interface between PDN GW and 3GPP AAA Server/proxy (S6b-interface)
+Interface between Untrusted non-3GPP IP Access and 3GPP AAA Server/proxy (SWa-interface)
+Interface between Trusted non-3GPP IP Access and 3GPP AAA Server/proxy (STa-interface)
+Interface between 3GPP AAA Server and 3GPP AAA proxy (SWd-interface)
+Interface between ePDG and 3GPP AAA Server/proxy (SWm-interface)
+Interface between ePDG and Untrusted non-3GPP Access (SWn-interface)
+Interface between ePDG and UE (SWu-interface)
+Interface between HSS and 3GPP AAA Server (SWx-interface)
+Interface between UE and ANDSF (S14-interface)
+Reference point between HRDP AN and MME (S101-reference point)
+Reference point between 3GPP2 1xCS IWS and MME (S102-reference point
+Interface between HSGW and S-GW (S103-interface)
+Reference point between UE and CSG List Server (Uh reference point)
+Reference Point between the CSS and the S4-SGSN (S7d Reference Point)
+Reference point between the CSS and the MME (S7a reference point)
+Reference point between the MME and the SMS-GMSC/SMS-IWMSC/SMS Router (
+)
+Reference point between the HSS and the SMS-GMSC/SMS-IWMSC/SMS Router (
+)
+Reference point between HRPD AN and MME (S121-interface
+PLMN specific interfaces
+GCR-specific interface
+Interface between the MSC and its associated GCR (I-interface
+void)
+LCS-specific interfaces
+LCS interfaces using MAP
+void)
+void)
+void)
+Interface between BSC and SMLC (Lb-interface)
+Interface between Peer SMLCs (Lp-interface)
+Interface between BTS and LMU (Um-interface)
+Interface between GMLC and External LCS Client (Le-interface)
+Interface between RNS and Stand-Alone LMU, UE (Uu-interface)
+Interface between SRNC and SAS (Stand-Alone SMLC) (Iupc-interface)
+Interface between GMLC and GMLC (Lr-interface)
+Interface between GMLC and MME (SLg-interface)
+Interface between MME and E-SMLC (SLs-interface)
+Interface between GMLC and HSS (SLh-interface)
+Interface between GMLC and SGSN (Lgd-interface)
+CAMEL-specific interfaces
+GMSC - gsmSSF interface
+SSF - gsmSCF interface
+MSC - gsmSSF interface
+SCF - HLR interface
+SCF - gsmSRF interface
+MSC - gsmSCF interface
+SGSN - gprsSSF interface
+SSF - gsmSCF interface (Ge Reference Point)
+CBS-specific interfaces
+Interface between the CBC and RNS (Iu_BC Interface)
+Interface between the CBC and MME (SBc Interface
+Interface between the CBC and BSC
+Number portability specific interfaces
+IN-based solution
+NPDB to MSC interface
+Signalling Relay-based solution
+GMSC to MNP-SRF interface
+MNP-SRF to HLR interface
+IM Subsystem Reference Points
+Reference Point HSS – CSCF (Cx Reference Point)
+Reference Point CSCF – UE (Gm Reference Point)
+Reference Point MGCF – IMS-MGW (Mn Reference Point)
+Reference Point MGCF – CSCF (Mg Reference Point)
+void)
+Reference Point AS-MRFC for media control (Cr Reference Point)
+Reference Point AS-MRFC for session control (Mr′ Reference Point)
+Reference Point CSCF - MRFC (Mr Reference Point)
+Reference Point MRFC – MRFP (Mp Reference Point
+Reference Point CSCF – CSCF (Mw Reference Point)
+void)
+Reference Point CSCF – MRB (ISC Reference Point)
+void)
+Reference Point AS – MRB (Rc Reference Point)
+Reference Point CSCF – BGCF (Mi reference point)
+Reference Point BGCF – MGCF (Mj reference point)
+Reference Point BGCF/IBCF – BGCF (Mk reference point)
+Reference Point CSCF- SLF (Dx Reference Point)
+Reference Point to IMS media plane (Mb reference point)
+Reference Point S-CSCF – AS (ISC Reference Point)
+Reference Point E-CSCF - EATF (I4 Reference Point)
+Reference Point I-CSCF - EATF (I5 Reference Point)
+Reference Point HSS – SIP AS or OSA SCS (Sh Reference Point)
+Reference Point HSS – CAMEL IM-SSF (Si Reference Point)
+Reference Point UE – AS (Ut Reference Point)
+Reference Point AS- SLF (Dh Reference Point
+Reference Point CSCF/BGCF - IBCF (Mx Reference Point)
+Reference Point IBCF - TrGW (Ix Reference Point)
+Reference Point I-CSCF – AS (Ma Reference Point)
+Reference Point P-CSCF – IMS Access Gateway (Iq Reference Point)
+Reference Point E-CSCF - LRF (Ml Reference Point)
+Reference Point IBCF - IBCF (Ici Reference Point)
+Reference Point TrGW - TrGW (Izi Reference Point)
+Void
+Reference Point MSC Server - CSCF (I2 Reference Point)
+Reference Point MSC Server - TAS (I3 Reference Point)
+Reference Point IBCF - Application Server (AS) (Ms Reference Point)
+Void
+Reference Points for 3GPP/WLAN Interworking
+Reference point 3GPP AAA Server - HLR (D'/Gr' Reference Point)
+Reference point WLAN access network - 3GPP AAA Proxy/Server (Wa Reference Point)
+Reference point 3GPP AAA Server – 3GPP AAA Proxy (Wd Reference Point)
+Reference point 3GPP AAA Server/Proxy - WAG (Wg Reference Point
+Reference point PDG - packet data networks (Wi Reference Point)
+Reference Point 3GPP AAA Server/Proxy - PDG (Wm Reference Point)
+Reference Point WAG - WLAN access network (Wn Reference Point)
+Reference Point WAG - PDG (Wp Reference Point)
+Reference point WLAN UE - PDG (Wu Reference Point)
+Reference point WLAN UE - WLAN access network (Ww Reference Point)
+Reference point 3GPP AAA Server - HSS (Wx Reference Point)
+Reference point 3GPP AAA Server - SLF (Dw reference point)
+MBMS specific reference points for GPRS
+Reference point GGSN – BM-SC (Gmb Reference Point)
+Reference point BM-SC – BM-SC (Mz Reference Point)
+Reference point GGSN – RNS (or BSS Iu mode) (Gmc Reference Point
+MBMS specific reference points for EPS
+Reference point MBMS-GW – BM-SC (SGmb Reference Point)
+Reference point MBMS-GW – BM-SC (SGi-mb Reference Point)
+Reference point MBMS-GW - MME (Sm Reference Point)
+Reference point MBMS-GW – SGSN (Sn Reference Point)
+Reference point MBMS-GW – E-UTRAN/UTRAN (M1 Reference Point)
+Reference point MME – MCE (M3 Reference Point)
+Reference point MCE - eNodeB (M2 Reference Point)
+Reference point Content Provider/SCEF - BM-SC (xMB Reference Point)
+Reference Points for 3GPP Generic User Profile (GUP)
+Reference Point GUP Server – Applications (Rg Reference Point)
+Reference Point GUP Server – HSS and Applications – HSS (Rp Reference Point)
+Reference Points for Policy and Charging Control
+Reference Point PCEF - PCRF/H-PCRF/V-PCRF (Gx Reference Point)
+Reference Point PCRF - Application Function (Rx Reference Point)
+Reference Point SPR – PCRF (Sp Reference Point)
+Reference Point OCS – PCEF (Gy Reference Point)
+Reference Point OFCS – PCEF (Gz Reference Point)
+Reference Point Trusted non-3GPP IP Access and PCRF/VPCRF (Gxa Reference Point)
+Reference Point ePDG and PCRF/VPCRF (Gxb Reference Point)
+Reference Point ePDG and PCRF/VPCRF (Gxb* Reference Point)
+Reference point between S-GW and PCRF/VPCRF (Gxc-interface)
+Reference Point PCRF/VPCRF – BBERF (Gxx Reference Point)
+Reference Point HPCRF - VPCRF (S9- interface)
+Reference Point UDR – PCRF (Ud Reference Point)
+Reference Point TDF - PCRF/H-PCRF/V-PCRF (Sd Reference Point)
+Reference Point OCS - PCRF/H-PCRF (Sy Reference Point)
+Reference Point HNB GW - PCRF/V-PCRF (S15 Reference Point)
+Reference Point BPCF - PCRF/v-PCRF (S9a Reference Point)
+Reference Point OCS - TDF (Gyn Reference Point)
+Reference Point OFCS - TDF (Gzn Reference Point)
+Void
+Reference Point TSSF - PCRF/H-PCRF (St Reference Point)
+Reference point between PFDF and PCEF (Gw reference point)
+Reference point between PFDF and TDF (Gwn reference point)
+SMSIP specific reference points
+Reference point IP-SM-GW – HSS (J Reference Point
+User Data Convergence specific reference points
+Reference point Application Front Ends - UDR (Ud Reference Point)
+Specific reference points for facilitating communications with packet data networks and applications 
+Reference point MTC-IWF - SCS (Tsp reference point) 
+Reference point MTC-IWF - HSS/HLR (S6m reference point) 
+Reference point MTC-AAA - HSS/HLR (S6n reference point) 
+Reference point MTC-IWF - SMS-SC (T4 reference point) 
+Reference point between the HSS and the SCEF (S6t reference point) 
+Reference point between the MME and the SCEF (T6a reference point) 
+Reference point between the SGSN and the SCEF (T6b reference point) 
+Reference point between the RCAF and the SCEF (Ns reference point) 
+Reference point between the PCRF and the SCEF (Nt reference point) 
+Reference point between the PFDF and the SCEF (Nu reference point) 
+GCSE_LTE specific reference point 
+Reference point GCS AS - BM-SC (MB2 Reference Point) 
+Reference point GCS AS - UE (GC1 Reference Point) 
+ProSe specific reference points 
+Reference point UE - ProSe Application Server (PC1 Reference Point) 
+Reference point ProSe Function - ProSe Application Server (PC2 Reference Point 
+Reference point UE - ProSe Function (PC3 Reference Point) 
+Reference point HSS - ProSe Function (PC4a Reference Point) 
+Reference point SLP - ProSe Function (PC4b Reference Point) 
+Reference point UE - UE (PC5 Reference Point) 
+Reference point ProSe Function - ProSe Function in different PLMNs (PC6 Reference Point) 
+Reference point ProSe Function in HPLMN - ProSe Function in VPLMN (PC7 Reference Point) 
+Reference points for RAN user plane congestion detection and reporting 
+Reference Point RCAF - PCRF/ V-PCRF (Np Reference Point) 
+Reference point between MME and RCAF (Nq reference point) 
+Reference point between SGSN and RCAF (Nq' reference point) 
+Reference points between the PLMN and other networks 
+Reference point fixed networks - MSC 
+Reference point GGSN - packet data networks (Gi reference point) 
+Reference point PDN GW - packet data networks (SGi reference point) 
+Reference point GMLC - external LCS Client (Le reference point) 
+Reference Point CSCF/IBCF – Multimedia IP networks (Mm Reference Point) 
+void) 
+Reference point PDG - packet data networks (Wi reference point) 
+Reference Point WAG – WLAN access network (Wn reference point 
+Reference point MTC-IWF - SCS (Tsp reference point) 
+A (informative): Description for GLR-related entities and interfaces 
+Normative references 
+Definitions related to Gateway Location Register (GLR) 
+Gateway Location Register (GLR) 
+Intermediate Mobile-services Switching Centre (IM-MSC) 
+Intermediate GPRS Serving Node (IM-GSN) 
+The entities of the mobile system 
+Gateway Location Register (GLR) 
+Intermediate Mobile-services Switching Centre (IM-MSC) 
+Intermediate GPRS Serving Node (IM-GSN) 
+Configuration of a Public Land Mobile Network 
+Basic configuration with GLR introduction 
+PLMN interfaces 
+Interface between the HLR and the GLR (GLa-interface) 
+Interface between the VLR and the GLR (GLb-interface) 
+Interface between the SGSN and the GLR (GLc-interface) 
+Interface between the GLR and the IM_MSC (GLd-interface) 
+Interface between the GLR and the IM_GSN (GLe-interface) 
+Interface between the SMS-GMSC and the GLR (GLf-interface) 
+Interface between the SMS-GMSC and the IM_MSC (GLg-interface) 
+Interface between the MSC and the IM_MSC (GLh-interface) 
+Interface between the GMLC and the IM_MSC (GLi-interface) 
+Interface between the GGSN and the IM_GSN (GLj-interface) 
+Interface between the SGSN and the IM_GSN (GLk-interface) 

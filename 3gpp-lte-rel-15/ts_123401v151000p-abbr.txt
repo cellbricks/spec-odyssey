@@ -75,3 +75,454 @@
 #URRP-MME UE Reachability Request Parameter for MME
 #UL TFT UpLink Traffic Flow Template
 #ULR-Flags Update Location Request Flags
+Architecture model and concepts  
+General concepts  
+Architecture reference model  
+Non-roaming architecture  
+Roaming architecture  
+Reference points  
+Warning System architecture  
+High level functions  
+General  
+Network access control functions  
+General  
+Network/Access network selection  
+Authentication and authorisation function  
+Admission control function  
+Policy and Charging Enforcement Function  
+Lawful Interception  
+Support for Dual Connectivity  
+Packet routing and transfer functions 
+General  
+IP header compression function  
+Packet screening function  
+IP Multicast Forwarding between a network accessed by LIPA and a UE  
+Security functions  
+Mobility management functions  
+General  
+Reachability Management for UE in ECM-IDLE state 
+Tracking Area list management  
+Inter-eNodeB mobility anchor function  
+Inter-3GPP mobility anchor function  
+Idle mode signalling reduction function  
+Mobility Restrictions  
+IMS voice over PS Session Supported Indication  
+ Homogenous Support of IMS Voice over PS Sessions Indication  
+Voice domain preference and UE's usage setting 
+Preferred and Supported Network Behaviour  
+Radio Resource Management functions  
+Network management functions  
+General  
+GTP-C signalling based Load and Overload Control  
+GTP-C Load Control  
+GTP-C Overload Control 
+Load balancing between MMEs  
+Load re-balancing between MMEs  
+MME control of overload  
+General  
+Throttling of Downlink Data Notification Requests  
+Throttling of NIDD Submit Requests  
+NAS level congestion control  
+PDN GW control of overload 
+Selection functions  
+PDN GW selection function (3GPP accesses)  
+Serving GW selection function  
+MME selection function  
+SGSN selection function  
+Selection of PCRF  
+IP network related functions  
+Domain Name Service function  
+DHCP function  
+Explicit Congestion Notification  
+Functionality for Connection of eNodeBs to Multiple MMEs 
+E-UTRAN Sharing Function  
+IMS Emergency Session Support  
+Introduction  
+Architecture Reference Model for Emergency Services  
+Mobility and Access Restrictions for Emergency Services  
+Reachability Management for UE in ECM-IDLE state 
+PDN GW selection function (3GPP accesses) for Emergency Services  
+QoS for Emergency Services  
+PCC for Emergency Services  
+Load re-balancing between MMEs for Emergency Services  
+IP Address Allocation  
+Handling of PDN Connections for Emergency Bearer Services  
+ISR function for Emergency Bearer Services  
+Support of eCall Only Mode  
+Closed Subscriber Group functions  
+Location Service functions  
+Selected IP Traffic Offload (SIPTO) function  
+Selected IP Traffic Offload (SIPTO) at the Local Network  
+General  
+SIPTO at the Local Network with stand-alone GW (with S-GW and L-GW collocated) function  
+SIPTO at the Local Network with L-GW function collocated with the (H)eNB  
+Local IP Access (LIPA) function  
+Support for Machine Type Communications (MTC)  
+General  
+Overview of protection from Potential MTC Related Overload  
+Optimising periodic TAU Signalling  
+UE configuration and usage of indicators  
+Void 
+Support of UEs configured for low access priority, Extended Access Barring and permission 
+High latency communication  
+Support for Non-IP Data Delivery (NIDD)  
+General  
+ESM Procedures  
+Delivery mechanism  
+Service Gap Control  
+Multimedia Priority Service  
+General  
+IMS-based Multimedia Priority Services  
+Originating IMS-based MPS Session  
+Terminating IMS-based MPS Session  
+Priority EPS Bearer Services 
+CS fallback  
+Network Congestion Controls for MPS  
+Load Re-balancing between MMEs for MPS  
+Core Network node resolution  
+General  
+MSB in LAC and MME Group ID  
+Explicit Indication  
+Relaying function  
+General  
+RN startup and attach procedure  
+General  
+Attach for RN preconfiguration  
+Attach for RN operation  
+DeNB E-RAB activation/modification  
+Core Network assisted eNodeB parameters tuning  
+CN Assistance Information  
+Void 
+Core Network Assistance Procedures  
+UE Power Saving Mode  
+Access network selection and traffic steering based on RAN-assisted WLAN interworking  
+Access network selection and traffic steering based on RAN-Controlled WLAN interworking  
+RAN user plane congestion management function  
+General  
+RAN user plane congestion mitigation in the RAN  
+RAN user plane congestion mitigation in the CN  
+Dedicated Core Networks (DCNs)  
+General  
+UE assisted Dedicated Core Network selection  
+Considerations for Roaming 
+Considerations for Network Sharing  
+Support for Monitoring Events  
+Paging Enhancements  
+Paging for Enhanced Coverage  
+Restriction of use of Enhanced Coverage for voice centric UE  
+Enhanced Coverage for data centric UEs  
+Restriction of use of Enhanced Coverage  
+GPP PS Data Off  
+General  
+Unlicensed spectrum aggregation (LAA/LWA/LWIP)  
+Subscription handling for Aerial UEs  
+Network elements  
+E-UTRAN  
+MME  
+Gateway  
+General  
+Serving GW 
+PDN GW  
+SGSN  
+GERAN  
+UTRAN  
+PCRF  
+General  
+Home PCRF (H-PCRF) 
+Visited PCRF (V-PCRF)  
+PDN GW's associated AAA Server  
+HeNB subsystem  
+DeNB  
+CSG Subscriber Server  
+RAN Congestion Awareness Function  
+Void  
+EPS Mobility Management and Connection Management states  
+General  
+Definition of main EPS Mobility Management states  
+EMM-DEREGISTERED  
+EMM-REGISTERED  
+Definition of EPS Connection Management states  
+ECM-IDLE 
+ECM-CONNECTED 
+State transition and functions  
+Overall QoS concept  
+PDN connectivity service  
+The EPS bearer  
+The EPS bearer in general  
+The EPS bearer with GTP-based S5/S8  
+The EPS bearer with PMIP-based S5/S8  
+Bearer level QoS parameters  
+Support for Application / Service Layer Rate Adaptation  
+Application of PCC in the Evolved Packet System  
+Bearer Control Mode in EPC  
+Support of rate control of user data using CIoT EPS Optimisation  
+General  
+Serving PLMN Rate Control  
+APN Rate Control  
+Inter-UE QoS for NB-IoT UEs using Control Plane CIoT EPS Optimisation 
+Compatibility Issues  
+Network Configuration for Interaction with UTRAN/GERAN  
+Paging Policy Differentiation  
+Introduction of CIoT EPS Optimisations  
+User Plane CIoT EPS Optimisation  
+Supporting up to 15 EPS bearers per UE  
+Functional description and information flows  
+Control and user planes  
+General  
+Control Plane  
+General  
+NodeB - MME  
+UE - MME  
+SGSN - MME 
+SGSN - S-GW  
+S-GW - P-GW  
+MME - MME  
+MME - S-GW  
+MME - HSS  
+MME - EIR  
+Void 
+MME - CSS  
+MME - RCAF  
+User Plane  
+UE - P-GW user plane with E-UTRAN  
+NodeB - S-GW  
+UE - PDN GW user plane with 2G access via the S4 interface  
+UE - PDN GW user plane with 3G access via the S12 interface  
+UE - PDN GW user plane with 3G access via the S4 interface  
+UE - P-GW user plane with Control Plane CIoT EPS Optimisations  
+Identities  
+EPS bearer identity  
+Globally Unique Temporary UE Identity  
+Tracking Area Identity (TAI) 
+NodeB S1-AP UE Identity (eNodeB S1-AP UE ID)  
+MME S1-AP UE Identity (MME S1-AP UE ID)  
+Closed Subscriber Group ID  
+Authentication, security and location management  
+IP address allocation  
+General  
+IP address allocation, renewal and release mechanisms for GTP based S5/S8  
+IPv4 address allocation via default bearer activation and release via PDN connection release 
+Allocation, renewal and release of the IPv6 default prefix via IPv6 stateless 
+IPv6 parameter configuration via stateless DHCPv6 
+IPv4 address allocation, renewal and release and IPv4 parameter configuration via DHCPv4  
+Void  
+IPv6 Prefix Delegation via DHCPv6  
+Attach procedure  
+E-UTRAN Initial Attach  
+UTRAN/GERAN Initial Attach  
+Tracking Area Update procedures  
+Triggers for tracking area update  
+ Provision of UE's TAI to MME in ECM-CONNECTED state  
+Tracking Area Update procedure with Serving GW change  
+ Tracking Area Update procedure with Serving GW change and data forwarding  
+E-UTRAN Tracking Area Update without S-GW Change  
+Routing Area Update with MME interaction and without S-GW change  
+Void 
+Void 
+Routing Area Update with MME interaction and with S-GW change  
+Service Request procedures  
+UE triggered Service Request  
+Handling of abnormal conditions in UE triggered Service Request  
+Network Triggered Service Request  
+ Connection Suspend procedure 
+ Data Transport in Control Plane CIoT EPS Optimisation  
+ General  
+ Mobile Originated Data Transport in Control Plane CIoT EPS Optimisation with P-
+ Mobile Terminated Data Transport in Control Plane CIoT EPS Optimisation with P-
+ Establishment of S1-U bearer during Data Transport in Control Plane CIoT EPS Optimisation  
+ eNB Control Plane Relocation Indication procedure  
+S1 release procedure  
+ Connection Resume procedure  
+Void  
+ PDN GW Pause of Charging procedure  
+GUTI Reallocation procedure  
+Detach procedure  
+General  
+UE-initiated Detach procedure  
+UE-initiated Detach procedure for E-UTRAN  
+UE-initiated Detach procedure for GERAN/UTRAN with ISR activated  
+MME-initiated Detach procedure  
+ SGSN-initiated Detach procedure with ISR activated  
+HSS-initiated Detach procedure  
+HSS User Profile management function procedure  
+General  
+Insert Subscriber Data procedure  
+Purge function  
+Security Function  
+General  
+Authentication and Key Agreement  
+User Identity Confidentiality  
+User Data and Signalling Confidentiality  
+AS security mode command procedure  
+NAS Security Mode Command procedure  
+ME identity check procedure  
+UE Reachability procedures  
+General  
+UE Reachability Notification Request procedure  
+UE Activity Notification procedure  
+Update CSG Location Procedure  
+CSS subscription data management function procedure  
+General  
+UE Radio Capability Match Request  
+Session Management, QoS and interaction with PCC functionality  
+Dedicated bearer activation 
+Bearer modification with bearer QoS update  
+PDN GW initiated bearer modification with bearer QoS update  
+HSS Initiated Subscribed QoS Modification  
+PDN GW initiated bearer modification without bearer QoS update  
+Bearer deactivation  
+PDN GW initiated bearer deactivation  
+MME Initiated Dedicated Bearer Deactivation  
+UE requested bearer resource modification  
+Void  
+E-UTRAN initiated E-RAB modification procedure  
+E-UTRAN initiated UE Context Modification procedure  
+Handover  
+Intra-E-UTRAN handover  
+X2-based handover 
+General  
+X2-based handover without Serving GW relocation  
+X2-based handover with Serving GW relocation  
+S1-based handover  
+General  
+S1-based handover, normal  
+S1-based handover, Reject  
+S1-based handover, Cancel  
+Inter RAT handover  
+General  
+E-UTRAN to UTRAN Iu mode Inter RAT handover  
+General  
+Preparation phase 
+Execution phase  
+E-UTRAN to UTRAN Iu mode Inter RAT handover Reject  
+UTRAN Iu mode to E-UTRAN Inter RAT handover  
+General  
+Preparation phase 
+Execution phase  
+UTRAN Iu mode to E-UTRAN Inter RAT handover reject  
+E-UTRAN to GERAN A/Gb mode Inter RAT handover 
+General  
+Preparation phase 
+Execution phase  
+E-UTRAN to GERAN A/Gb mode Inter RAT handover reject  
+GERAN A/Gb mode to E-UTRAN Inter RAT handover 
+General  
+Preparation phase 
+Execution phase  
+GERAN A/Gb mode to E-UTRAN Inter RAT handover reject  
+Inter RAT handover Cancel  
+General  
+Source RAN to Target RAN Inter RAT handover Cancel  
+Network Assisted Cell Change  
+Architecture Principles for E-UTRAN to GERAN NACC  
+Void  
+Information storage  
+HSS  
+MME  
+Serving GW  
+PDN GW  
+UE  
+Handling of Wild Card APN 
+CSS  
+ Charging  
+ General  
+ Usage Data Reporting for Secondary RAT  
+ Secondary RAT Usage Data Reporting Procedure  
+ Secondary RAT Periodic Usage Data Reporting Procedure  
+MBMS  
+Interactions with other services  
+Location Reporting Procedure  
+Location Change Reporting Procedure  
+General  
+Reporting at Presence Reporting Area entering and leaving  
+IMSI and APN information retrieval procedure  
+Multiple-PDN support and PDN activation for UEs supporting "Attach without PDN connectivity"  
+General  
+UE requested PDN connectivity  
+UE or MME requested PDN disconnection  
+MME triggered Serving GW relocation  
+UE Capability Handling  
+General  
+UE Radio Capability Handling  
+UE Core Network Capability  
+UE Radio Capability for Paging Information  
+UE Radio Capability for Category M Differentiation  
+Warning message delivery  
+General  
+Void  
+Void  
+Discontinuous Reception and UE Specific DRX Parameter handling  
+Extended Idle mode Discontinuous Reception (DRX)  
+Configuration Transfer procedure  
+Architecture Principles for Configuration Transfer  
+Addressing, routing and relaying  
+Addressing  
+Routing  
+Relaying  
+Applications using the Configuration Transfer procedures  
+RAN Information Management (RIM) procedures  
+General  
+Addressing, routing and relaying  
+Addressing  
+Routing  
+Relaying  
+Applications using the RIM Procedures  
+MME-initiated procedure on UE's CSG membership change  
+Home eNodeB Multicast Packet Forwarding Function  
+HPLMN Notification with specific indication due to MME initiated Bearer removal  
+Procedures to support Dedicated Core Networks  
+NAS Message Redirection Procedure  
+Attach, TAU and RAU procedure for Dedicated Core Network  
+Impacts to Handover Procedures  
+MME/SGSN or HSS initiated Dedicated Core Network Reselection  
+A (informative): Void  
+B (informative): Void  
+C (informative): Void  
+D (normative): Interoperation with Gn/Gp SGSNs  
+General Considerations  
+Interoperation Scenario  
+Roaming interoperation scenario  
+Non-roaming interoperation scenario  
+Interoperation procedures  
+General  
+Void  
+MME to 3G SGSN combined hard handover and SRNS relocation procedure  
+G SGSN to MME combined hard handover and SRNS relocation procedure  
+Routing Area Update  
+Gn/Gp SGSN to MME Tracking Area Update  
+E-UTRAN to GERAN A/Gb mode Inter RAT handover  
+General  
+Preparation phase  
+Execution phase  
+GERAN A/Gb mode to E-UTRAN Inter RAT handover  
+General  
+Preparation phase  
+Execution phase  
+E (normative): Mapping between EPS and Release 99 QoS parameters 
+F (normative): Dedicated bearer activation in combination with the default 
+ Attach and UE requested PDN connectivity procedures  
+G (informative): Void  
+H (normative): Mapping between temporary and area identities  
+I (informative): Guidance for contributors to this specification  
+J (informative): High Level ISR description  
+General description of the ISR concept  
+Usage of the TIN  
+ISR activation  
+Downlink data transfer  
+ISR deactivation  
+Handling of special situations  
+K (informative): Isolated E-UTRAN Operation for Public Safety  
+General description of the IOPS concept  
+Operation of isolated public safety networks using a Local EPC  
+General Description  
+UE configuration  
+IOPS network configuration  
+IOPS network establishment/termination  
+UE mobility  
+L (informative): Optimised EPS Architecture option for CIoT  
+Introduction  
+Non-Roaming Architecture  
+Roaming architecture  
+C-SGN  
+M (informative): Functions and procedures over NB-IoT RAT  
+N (informative): Change history  

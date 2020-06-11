@@ -66,6 +66,7 @@ class EtsiParser:
     def get_abbrs_from_file(pdf: str) -> dict:
         p = pdf
         abbr_file = p.replace(".pdf", "-abbr.txt")
+
         if not os.path.exists(abbr_file):
             with open(abbr_file, 'w'): pass
 
@@ -75,20 +76,42 @@ class EtsiParser:
                                 f"1. copy (a) content table or (b) abbreviation table from pdf;"
                                 f"2. add # to each line if it starts with an acronym.")
 
+            def is_acrm(_w):
+                ctr = 0
+                for c in _w:
+                    c: str
+                    if c.isupper():
+                        ctr += 1
+                    if ctr >= 2:
+                        return True
+
+                return False
+
             abbrs = dict()
             for l in f.readlines():
                 l = l.rstrip()
+                # Rules for acronyms (multiple rules can be hit at once):
+                # Rule 1: Consecutive (>2) upper case letter, e.g., MME;
+                for w in l.split():
+                    if is_acrm(w):
+                        w = w.replace("(", "").replace(")", "").replace("#", "")
+                        abbrs[w] = l
+
+                # Rule 2: Bracketed, e.g., Reference point PDG - packet data networks (Wi reference point)
+                if " (" in l and ")" in l:
+                    # TODO: handle >2 matches
+                    r = re.compile("\((.*?)\)").search(l)
+                    abbr = r.group(1)
+                    abbrs[abbr] = l.replace(r.group(0), "")
+
+                # Rule 3: Starts with # (manually labeled), e.g., #MME Mobility Management Equipment
                 if l.startswith("#"):
                     l = l.lstrip("#").split()
                     abbrs[l[0]] = " ".join(l[1:])
-                else:
-                    if " (" in l:
-                        r = re.compile("\((.*?)\)").search(l)
-                        abbr = r.group(1)
-                        abbrs[abbr] = l.replace(r.group(0), "")
-                    else:
-                        abbrs[l] = l
-                        abbrs[l.lower()] = l.lower()
+
+                # Rule 4: in the interface table
+                # TODO:
+                pass
             return abbrs
 
     @staticmethod

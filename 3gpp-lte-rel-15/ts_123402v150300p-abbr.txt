@@ -1,49 +1,495 @@
-#5GC 5G Core Network
-#ANDSF Access Network Discovery and Selection Function
-#DSMIPv6 Dual-Stack MIPv6
-#CPICH Common Pilot Channel
-#DMNP Delegated Mobile Network Prefix
-#EAP Extensible Authentication Protocol
-#EPC Evolved Packet Core
-#ePDG Evolved Packet Data Gateway
-#EPS Evolved Packet System
-#FACoA Foreign Agent Care-of-Address
-#FQDN Fully Qualified Domain Name
-#GW Gateway
-#H-ANDSF Home-ANDSF
-#HBM Host-based Mobility
-#HRPD High Rate Packet Data
-#HS-GW HRPD Serving Gateway
-#IFOM IP Flow Mobility
-#IKEv2 Internet Key Exchange version 2
-#IPMS IP Mobility management Selection
-#LMA Local Mobility Anchor
-#LWA LTE-WLAN Radio Level Aggregation
-#LWIP LTE-WLAN Radio Level Integration with IPsec Tunnel
-#MAG Mobile Access Gateway
-#MAPCON Multi Access PDN Connectivity
-#MIPv4 Mobile IP version 4
-#MIPv6 Mobile IP version 6
-#MME Mobility Management Entity
-#MTC Machine-Type Communications
-#NBM Network-based Mobility
-#NSWO Non-seamless WLAN Offload
-#OPI Offload Preference Indicator
-#P-GW PDN Gateway
-#PMIP/PMIPv6 Proxy Mobile IP version 6
-#RIM RAN Information Management
-#RCLWI RAN Controlled WLAN Interworking
-#RSRP Reference Signal Received Power
-#RSSI Received Signal Strength Indicator
-#SectorID Sector Address Identifier
-#S-GW Serving GW
-#SON Self-Configuring and self-Optimizing network
-#TWAP Trusted WLAN AAA Proxy
-#TWAG Trusted WLAN Access Gateway
-#TWAN Trusted WLAN Access Network
-#UICC Universal Integrated Circuit Card
-#UWAN Untrusted WLAN Access Network
-#V-ANDSF Visited-ANDSF
-#WiMAX Worldwide Interoperability for Microwave Access
-#WLCP WLAN Control Protocol
-#WMM Wifi Multimedia
+#5GC 5G Core 
+#ANDSF Access Network Discovery and Selection 
+#DSMIPv6 Dual-Stack MI
+#CPICH Common Pilot 
+#DMNP Delegated Mobile Network 
+#EAP Extensible Authentication 
+#EPC Evolved Packet 
+#ePDG Evolved Packet Data 
+#EPS Evolved Packet 
+#FACoA Foreign Agent Care-of-
+#FQDN Fully Qualified Domain 
+#GW 
+#H-ANDSF Home-
+#HBM Host-based 
+#HRPD High Rate Packet 
+#HS-GW HRPD Serving 
+#IFOM IP Flow 
+#IKEv2 Internet Key Exchange version 
+#IPMS IP Mobility management 
+#LMA Local Mobility 
+#LWA LTE-WLAN Radio Level 
+#LWIP LTE-WLAN Radio Level Integration with IPsec 
+#MAG Mobile Access 
+#MAPCON Multi Access PDN 
+#MIPv4 Mobile IP version 
+#MIPv6 Mobile IP version 
+#MME Mobility Management 
+#MTC Machine-Type 
+#NBM Network-based 
+#NSWO Non-seamless WLAN 
+#OPI Offload Preference 
+#P-GW PDN 
+#PMIP/PMIPv6 Proxy Mobile IP version 
+#RIM RAN Information 
+#RCLWI RAN Controlled WLAN 
+#RSRP Reference Signal Received 
+#RSSI Received Signal Strength 
+#SectorID Sector Address 
+#S-GW Serving 
+#SON Self-Configuring and self-Optimizing 
+#TWAP Trusted WLAN AAA 
+#TWAG Trusted WLAN Access 
+#TWAN Trusted WLAN Access 
+#UICC Universal Integrated Circuit 
+#UWAN Untrusted WLAN Access 
+#V-ANDSF Visited-
+#WiMAX Worldwide Interoperability for Microwave 
+#WLCP WLAN Control 
+#WMM Wifi 
+General Concepts for Interworking Between E-UTRAN and CDMA2000  
+General Concepts for Interworking Between 3GPP Accesses and WiMAX  
+IP Mobility Management Selection Principles  
+Static Configuration of Inter-technology Mobility Mechanism  
+Networks Supporting Multiple IP Mobility Mechanisms  
+IP Mobility Management Selection During Initial Attach to a Non-3GPP Access  
+IPMS solutions  
+IP Mobility Management Selection on Handover between accesses  
+Trusted/untrusted non-3GPP access network detection  
+Non-seamless WLAN offload 
+Architecture Reference Model  
+Architecture for 3GPP Accesses with PMIP-based S5/S8  
+Non-roaming Architectures for EPS  
+Roaming Architectures for EPS  
+Network Elements  
+Access Networks  
+E-UTRAN  
+Trusted and Untrusted Non-3GPP Access Network  
+MME  
+Gateway  
+General  
+Serving GW 
+PDN GW  
+PDG  
+PCRF  
+Home PCRF  
+Visited PCRF  
+Reference Points  
+List of Reference Points  
+Reference Point Requirements  
+S5 Reference Point Requirements  
+Void 
+Void 
+Void 
+High Level Functions  
+PDN GW Selection Function for Non-3GPP Accesses for S2a and S2b  
+PDN GW Selection Function for eHRPD with SIPTO support  
+PDN GW Selection Function for S2c  
+Serving GW Selection Function for Non-3GPP Accesses  
+PDG Selection  
+General  
+PDG FQDNs Construction  
+UE Configuration By HPLMN  
+UE ePDG Selection Procedure  
+PDG Selection with DNS-based Discovery of Regulatory Requirements  
+PDG Selection for Emergency Services  
+General  
+Emergency ePDG Selection Procedure  
+PCRF Selection  
+DSMIPv6 Home Link Detection Function  
+IMS Emergency Session Support  
+Overview  
+IMS Emergency Session Support over WLAN access to EPC  
+Introduction  
+Architecture Reference Model for Emergency Services 
+PDN GW selection function for Emergency Services  
+QoS for Emergency Services  
+PCC for Emergency Services  
+IP Address Allocation  
+Handling of PDN Connections for Emergency Bearer Services  
+Network provided WLAN Location Information  
+Determination of location  
+Support of PS handover with 3GPP EPC  
+APN congestion Control Function for eHRPD  
+GTP-C signalling based Load and Overload Control for trusted and untrusted WLAN  
+GTP-C load control  
+GTP-C overload control  
+Identities  
+User Identification  
+EPS bearer identity with GTP based S2b/S2a 
+IP Address Allocation  
+IP Address Allocation with PMIP-based S5/S8  
+IP Address Allocation in Trusted Non-3GPP IP Access using PMIPv6 on S2a  
+IP Address Allocation in Untrusted Non-3GPP IP Access using PMIPv6 or GTP on S2b  
+IP Address Allocation using S2c  
+IPv6 Prefix Delegation using S2c  
+IPv6 Prefix Delegation using PMIP-based S5/S8  
+Network Discovery and Selection  
+General Principles  
+Architecture for Access Network Discovery Support Functions  
+Network Elements  
+Access Network Discovery and Selection Function (ANDSF)  
+General  
+Inter-System Mobility Policy  
+Access Network Discovery Information  
+Inter-System Routing Policy  
+Inter-APN Routing Policy  
+WLAN Selection Policy  
+VPLMNs with preferred WLAN Selection Rules  
+Void  
+Home Network Preferences  
+Visited Network Preferences  
+UE Procedures  
+Selection of Active ANDSF Rules  
+UE Behavior Based on the ANDSF Information  
+WLAN Selection based on WLANSP  
+Reference Points  
+ANDSF Discovery  
+Void  
+Support of RAN Assistance Information  
+General  
+ANDSF Rules Utilizing RAN Assistance Information  
+Evaluation of ANDSF Rules with RAN Validity Conditions  
+Co-existence with RAN Rules  
+Support of LWA, LWIP and RCLWI  
+General  
+Co-existence with LWA and RCLWI  
+Co-existence with LWIP  
+Authentication and Security  
+Access Authentication in non-3GPP Accesses  
+Tunnel Authentication  
+Support for EAP Re-Authentication  
+QoS Concepts  
+General  
+Void  
+The EPS Bearer with PMIP-based S5/S8 and E-UTRAN access  
+Application of PCC in the Evolved Packet System  
+PDN connectivity service with GTP based S2b  
+Single IPSec SA per PDN Connection Scenario  
+Single IPsec SA per S2b bearer Scenario  
+Charging for Non-3GPP Accesses  
+Multiple PDN Support  
+Detach principles  
+Functional Description and Procedures for 3GPP Accesses with PMIP-based S5/S8  
+Control and User Plane Protocol Stacks  
+Void  
+General  
+Control Plane  
+Serving GW - PDN GW  
+User Plane  
+UE – PDN GW User Plane with E-UTRAN  
+UE – PDN GW User Plane with 2G access via the S4 Interface  
+UE – PDN GW User Plane with 3G Access via the S4 Interface  
+UE – PDN-GW User Plane with 3G Access via the S12 Interface  
+Initial E-UTRAN Attach with PMIP-based S5 or S8  
+Detach for PMIP-based S5/S8  
+Dedicated Bearer Procedures for E-UTRAN Access with PMIP-based S5/S8  
+General  
+Dedicated Bearer Activation  
+Bearer Modification with Bearer QoS Update  
+PCC Initiated Bearer Modification with Bearer QoS Update  
+HSS-Initiated Subscribed QoS Modification  
+Dedicated Bearer Modification without Bearer QoS Update  
+Dedicated Bearer Deactivation  
+PCC-initiated Dedicated Bearer Deactivation  
+Void 
+MME-initiated Dedicated Bearer Deactivation  
+UE-initiated Resource Request and Release 
+Multiple PDN Support with PMIP-based S5/S8  
+UE requested PDN connectivity  
+PDN Disconnection  
+UE, MME or S-GW initiated PDN Disconnection  
+PDN-GW-initiated PDN Disconnection  
+Handover and Tracking area Update Procedures for PMIP-based S5/S8 Interface 
+Intra-LTE TAU and Inter-eNodeB Handover without Serving GW Relocation  
+Intra-LTE TAU and Inter-eNodeB Handover with Serving GW Relocation 
+TAU/RAU or Handover between GERAN A/Gb Mode or UTRAN Iu Mode and E-UTRAN  
+ME Identity Check Procedures for PMIP-based S5/S8  
+UE-triggered Service Request for PMIP-based S5/S8  
+PMIP-based S5/S8 procedures for GERAN/UTRAN over S4  
+General  
+GPRS procedures that update the PDN GW  
+UE allocated resources  
+Network allocated resources  
+UE released resources  
+PDN GW released resources  
+Attach  
+Detach interaction using S4  
+Interaction with CGI/SAI reporting using S4  
+RAU Procedure Support  
+PDN GW initiated IPv4 address Delete Procedure  
+Location Change Reporting Procedure for PMIP-based S5/S8  
+Support for Machine Type Communications (MTC)  
+General  
+PDN GW control of overload  
+Usage of low access priority indicator  
+Functional Description and Procedures for Trusted Non-3GPP IP Accesses  
+Control and User Plane Protocol Stacks  
+Protocol Stacks for S2a  
+Protocol Stacks for S2c over Trusted Non-3GPP IP Accesses  
+Initial Attach on S2a  
+Initial Attach Procedure with PMIPv6 on S2a and Anchoring in PDN GW  
+Void  
+Initial Attach procedure with MIPv4 FACoA on S2a and Anchoring in PDN-GW  
+Initial Attach Procedure with PMIPv6 on S2a and Chained S2a and PMIP-based S8  
+Initial Attach Procedure with DSMIPv6 on S2c in Trusted Non-3GPP IP Access  
+Detach and PDN Disconnection for S2a  
+UE/Trusted Non-3GPP IP Access Network Initiated Detach and UE/Trusted Non-3GPP IP 
+PDN Disconnection Procedure with PMIPv6  
+Non-Roaming, Home Routed Roaming and Local Breakout Case  
+Chained PMIP-based S8-S2a Roaming Case  
+HSS/AAA Initiated Detach Procedure with PMIPv6  
+Non-Roaming, Home Routed Roaming and Local Breakout Case  
+Chained PMIP-based S8-S2a Roaming Case  
+UE-initiated Detach Procedure and UE-Requested PDN Disconnection Procedure with MI
+A  
+Network Initiated Detach Procedure with MIPv4 FACoA  
+HSS/AAA-initiated detach procedure with MIPv4 FACoA  
+Detach and PDN Disconnection for S2c in Trusted Non-3GPP IP Access  
+General  
+UE-initiated PDN disconnection Procedure  
+HSS / AAA-initiated Detach Procedure  
+PDN GW-initiated PDN Disconnection Procedure  
+Network-initiated Dynamic PCC  
+Network-initiated Dynamic PCC on S2a  
+Network-initiated Dynamic PCC for S2c over Trusted Non-3GPP IP Access  
+UE-initiated Resource Request and Release 
+UE-initiated Resource Request and Release on S2a  
+UE-initiated Resource Request for S2c over Trusted Non-3GPP IP Access  
+UE-initiated Connectivity to Additional PDN  
+UE-initiated Connectivity to Additional PDN with PMIPv6 on S2a  
+General  
+Non-Roaming, Home Routed Roaming and Local Breakout Case  
+Chained PMIP-based S8-S2a Roaming Case  
+UE-initiated Connectivity to Additional PDN with MIPv4 FACoA on S2a 
+UE-initiated Connectivity to Additional PDN from Trusted Non-3GPP IP Access with DSMIPv6 
+Void  
+PDN GW reallocation upon attach on S2c  
+S2c Bootstrapping via DSMIPv6 Home Link over a Trusted Access  
+PDN GW initiated Resource Allocation Deactivation  
+PDN GW initiated Resource Allocation Deactivation with S2a PMIP  
+PDN GW initiated Resource Allocation Deactivation with S2a MIPv4  
+PDN GW initiated Resource Allocation Deactivation for Chained PMIP-based S8-S2a Roaming  
+Void  
+Non-3GPP access initiated IPv4 address Delete Procedure  
+IPv4 Home Address Release Procedure for S2c  
+Enhanced security support for S2c  
+General  
+Activation of enhanced security for S2c  
+De-activation of enhanced security for S2c  
+Functional Description and Procedures for Un-trusted Non-3GPP IP Accesses  
+Control and User Plane Protocol Stacks  
+Protocol Options for S2b  
+Protocol Options for S2c over Un-trusted Non-3GPP IP Accesses  
+Initial Attach on S2b 
+Initial Attach with PMIPv6 on S2b  
+Void  
+Initial Attach Procedure with PMIPv6 on S2b and Chained S2b and PMIP-based S8  
+Initial Attach with GTP on S2b  
+Initial Attach for emergency session (GTP on S2b)  
+Initial Attach Procedure for S2c in Untrusted Non-3GPP IP Access  
+Detach and PDN Disconnection for S2b  
+UE/ePDG-initiated Detach Procedure and UE-Requested PDN Disconnection with PMIPv6 on S2b  
+Non-Roaming, Home Routed Roaming and Local Breakout Case  
+Chained PMIP-based S8-S2b Roaming Case  
+HSS/AAA-initiated Detach Procedure with PMIPv6 on S2b  
+Non-Roaming, Home Routed Roaming and Local Breakout Case  
+Chained PMIP-based S8-S2b Roaming Case  
+UE/ePDG-initiated Detach Procedure and UE-Requested PDN Disconnection with GTP on S2b  
+Non-Roaming, Home Routed Roaming and Local Breakout Case  
+HSS/AAA-initiated Detach Procedure with GTP on S2b  
+Non-Roaming, Home Routed Roaming and Local Breakout Case  
+Detach and PDN Disconnection for S2c in Un-trusted Non-3GPP IP Access  
+General  
+UE-Initiated PDN disconnection Procedure  
+HSS / AAA-initiated Detach Procedure  
+PDN GW-initiated PDN Disconnection Procedure  
+UE-initiated Connectivity to Additional PDN  
+UE-initiated Connectivity to Additional PDN with PMIPv6 on S2b  
+UE-initiated Connectivity to Additional PDN from Un-trusted Non-3GPP IP Access with DSMI
+S2c  
+UE-initiated Connectivity to Additional PDN with GTP on S2b  
+Void  
+S2c Bootstrapping via DSMIPv6 Home Link over an Un-Trusted Access  
+PDN GW initiated Resource Allocation Deactivation  
+PDN GW initiated Resource Allocation Deactivation with PMIPv6 on S2b  
+PDN GW initiated Resource Allocation Deactivation with GTP on S2b  
+Dedicated S2b bearer activation with GTP on S2b  
+S2b bearer modification with GTP on S2b  
+PDN GW initiated bearer modification  
+HSS Initiated Subscribed QoS Modification  
+Handovers without Optimizations Between 3GPP Accesses and Non-3GPP IP Accesses  
+Common Aspects for Handover without Optimizations for Multiple PDNs  
+Handovers between non-3GPP IP access with PMIPv6 on S2a/S2b and 3GPP Access  
+Handover from Trusted or Untrusted Non-3GPP IP Access with PMIPv6 on S2a/S2b to 3
+General Procedure for GTP based S5/S8 for E-UTRAN Access  
+Using PMIP-based S5/S8  
+General Procedure for GTP-based S5/S8 for UTRAN/GERAN  
+Using PMIP-based S5/S8  
+GPP Access to Trusted Non-3GPP IP Access Handover with PMIPv6 on S2a  
+GPP Access to Untrusted Non-3GPP IP Access Handover with PMIPv6 on S2b  
+Void  
+Void  
+Non-3GPP IP Access to 3GPP Access Handover with PMIPv6 on S2a/b for Chained PMIP-based S8  
+GPP Access to Non-3GPP IP Access Handover with PMIPv6 on S2a/b for Chained PMIP-based S8  
+Void  
+Void  
+Handover from 3GPP access to Trusted Non-3GPP IP Access with MIPv4 FACoA on S2a  
+Handover from Trusted Non-3GPP IP Access with MIPv4 FACoA on S2a to 3GPP access  
+Handovers with DSMIPv6 on S2c  
+Trusted or Untrusted Non-3GPP IP Access with DSMIPv6 over S2c to 3GPP Access Handover  
+GPP Access to Trusted Non-3GPP IP Access Handover with DSMIPv6 over S2c 
+GPP Access to Untrusted Non-3GPP IP Access Handover with DSMIPv6 over S2c  
+Handover with Access Network Discovery and Selection  
+Handover between 3GPP Access and Trusted / Untrusted Non-3GPP IP Access with access 
+ selection  
+Handovers between non-3GPP IP access with GTP on S2b and 3GPP Access  
+Handover from Untrusted Non-3GPP IP Access with GTP on S2b to 3GPP Access  
+General Procedure for GTP based S5/S8 for E-UTRAN Access  
+General Procedure for GTP-based S5/S8 for UTRAN/GERAN  
+Handover from 3GPP access to untrusted Non-3GPP IP Access with GTP on S2b  
+GPP Access to Untrusted Non-3GPP IP Access Handover with GTP on S2b  
+Handovers with Optimizations Between E-UTRAN Access and CDMA2000 Access  
+Architecture and Reference Points  
+Architecture for Optimized Handovers between E-UTRAN Access and cdma2000 HRPD Access  
+Reference Points  
+Reference Point List  
+Requirements for the S101 Reference Point  
+S101 Protocol Stack  
+S101 Session Identifier  
+Requirements for the S103 Reference Point  
+S103 Protocol Stack  
+Overview of Handover Procedures  
+General  
+Support for HO of IMS Emergency Sessions  
+Optimized Active Handover: E-UTRAN Access to cdma2000 HRPD Access  
+Introduction 
+Pre-registration Phase  
+Handover Phase  
+Optimized Idle-mode Mobility: E-UTRAN Access to cdma2000 HRPD Access  
+Void  
+Void  
+Void  
+Void  
+S101 Tunnel Redirection Procedure  
+Handovers with Optimizations Between 3GPP Accesses and Mobile WiMAX  
+Optimizations for network-controlled dual radio handover  
+General Principles  
+Handover Optimizations Applicable to All Non-3GPP Accesses  
+Interactions Between HSS and AAA Server  
+General  
+Location Management Procedures  
+UE Registration Notification  
+AAA-initiated UE De-registration Notification  
+HSS-initiated UE De-registration Notification  
+PDN GW Identity Notification from AAA Server  
+PDN GW Identity Notification from MME/SGSN  
+Subscriber Profile Management Procedures  
+HSS-initiated User Profile Update Procedure  
+AAA-initiated Provide User Profile Procedure 
+Authentication Procedures 
+Information Storage  
+General  
+HSS  
+MME  
+S-GW  
+Handling of Wild Card APN  
+PDG  
+TWAN  
+Void  
+Functional Description and Procedures for 3GPP Accesses with S2c  
+S2c Bootstrapping via DSMIPv6 Home Link  
+Architecture, Functional description and Procedures for GTP and PMIPv6 based S2a over 
+Access  
+Architecture and Functional Description  
+Architecture  
+High level functions  
+Reference points  
+STa reference point  
+SWw reference point  
+S2a reference point  
+Protocol Stacks  
+ Control Plane  
+ Negotiation of connection mode  
+ EAP-AKA' extensions  
+ PDN connection management Control plane  
+ WLAN Control Protocol (WLCP)  
+ User plane  
+ User plane for PDN connection  
+IP address allocation  
+General  
+IP address allocation in Transparent Single-Connection Mode  
+IP address allocation in Single-Connection Mode  
+IP address allocation in Multi-Connection Mode  
+Bearer model for PDN connectivity service with GTP based S2a  
+Single point-to-point connection UE-TWAN  
+Multiple point-to-point connection UE-TWAN  
+Access Network information reporting in case of a TWAN Access  
+Initial Attach in WLAN on S2a  
+Initial Attach in WLAN on GTP S2a  
+Initial Attach in WLAN for Emergency Service on GTP S2a  
+Initial Attach in WLAN on PMIP S2a  
+HSS retrieval of information about an UE from the TWAN serving that UE  
+Detach and PDN disconnection in WLAN on S2a  
+Detach and PDN disconnection in WLAN on GTP S2a  
+UE/TWAN Initiated Detach and UE/TWAN requested PDN Disconnection Procedure in 
+GTP S2a  
+HSS/AAA Initiated Detach Procedure in WLAN on GTP S2a  
+Detach and PDN disconnection in WLAN on PMIP S2a  
+UE/TWAN Initiated Detach and UE/TWAN requested PDN Disconnection Procedure in 
+PMIP S2a  
+HSS/AAA Initiated Detach Procedure in WLAN on PMIP S2a  
+PDN GW initiated Resource Allocation Deactivation in WLAN on S2a 
+PDN GW initiated Resource Allocation Deactivation in WLAN on GTP S2a  
+PDN GW initiated Resource Allocation Deactivation in WLAN on PMIP S2a  
+Dedicated bearer activation in WLAN on GTP S2a  
+Network-initiated bearer modification in WLAN on GTP S2a  
+PDN GW Initiated Bearer Modification  
+HSS Initiated Bearer Modification  
+Detach in WLAN on S2a for Multi-connection Mode  
+Detach in WLAN on GTP S2a 
+UE/TWAN Initiated Detach Procedure in WLAN on GTP S2a  
+HSS/AAA Initiated Detach Procedure in WLAN on GTP S2a  
+Detach in WLAN on PMIP S2a  
+UE/TWAN Initiated Detach Procedure in WLAN on PMIP S2a 
+HSS/AAA Initiated Detach Procedure in WLAN on PMIP S2a  
+UE Initiated PDN connectivity request procedure in WLAN on S2a for Multi-connection Mode  
+Supporting GTP S2a  
+Supporting PMIP S2a  
+UE/TWAN Initiated PDN disconnection for Multi-connection Mode  
+Supporting GTP S2a  
+Supporting PMIP S2a  
+Handover procedure from 3GPP access to WLAN on S2a  
+Handover procedure from 3GPP access to WLAN on S2a in single-connection mode  
+Handover in single-connection mode from 3GPP access to WLAN on GTP S2a  
+Handover in single-connection mode from 3GPP access to WLAN on PMIP S2a 
+Handover procedure from 3GPP access to WLAN on S2a in multi-connection mode  
+Handover in multi-connection mode from 3GPP access to WLAN on GTP S2a  
+Handover in multi-connection mode from 3GPP access to WLAN on PMIP S2a  
+Handover procedure from WLAN on S2a to 3GPP access  
+E-UTRAN-HRPD Inter-RAT SON Support  
+Architecture and Interface  
+Architecture for E-UTRAN-HRPD Inter-RAT SON Support  
+Reference Points  
+Reference Point List  
+Requirements for the S121 interface  
+S121 Protocol Stack  
+A (informative): GTP - PMIP Roaming  
+Direct Peering Scenario  
+Proxy-based interworking  
+B (informative): Guidance for Contributors to this Specification  
+C (informative): Handover Flows Between Non-3GPP Accesses  
+General  
+Trusted Non-3GPP IP Access to Trusted Non-3GPP IP Access with DSMIPv6 over 
+Untrusted Non-3GPP IP Access with PMIPv6 to Trusted Non-3GPP IP Access with PMI
+ the Non-Roaming Scenario  
+Trusted/Untrusted Non-3GPP IP Access with DSMIPv6 to Trusted Non-3GPP IP Access 
+ Handover in the Non-Roaming Scenario  
+Handover Between Two Untrusted Non-3GPP IP Accesses Connected to the Same ePDG  
+Handovers between APs of a Non-3GPP Trusted WLAN Access on S2a  
+D (informative): Void  
+E (informative): Gateway Relocation in the Trusted Non-3GPP IP Access  
+Gateway Relocation with PMIPv6 on S2a  
+Gateway Relocation with MIPv4 FACoA on S2a  
+F (informative): Deployment of Non-3GPP Trusted WLAN Access on S2a  
+G (informative): Change History  
