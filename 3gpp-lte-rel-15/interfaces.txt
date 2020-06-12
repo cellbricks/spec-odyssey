@@ -9,6 +9,7 @@ Dh
 Dx
 Dz
 E1
+EAP
 E-UTRAN Uu (LTE Uu)
 F1
 Ga
